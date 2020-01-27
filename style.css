@@ -1,0 +1,42 @@
+.container {
+
+
+    margin: auto;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container > div {
+  background-color: white;
+  padding: auto;
+    width: auto;
+    height: auto;
+}
+
+
+button {
+
+    padding: 15px;
+    border-radius: 7px;
+    background-color: #5DADE2;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    margin-left: 380px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3498DB;
+
+}
